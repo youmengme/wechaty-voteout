@@ -1,11 +1,10 @@
 /* eslint-disable brace-style */
 import {
   Wechaty,
-  type,
   log,
   WechatyPlugin,
 }                 from 'wechaty'
-
+import { MessageType } from 'wechaty-puppet'
 import {
   matchers,
   talkers,
@@ -67,7 +66,7 @@ export function VoteOut (config: VoteOutConfig): WechatyPlugin {
 
       if (!room)                                { return  }
       // if (!voter)                               { return  }
-      if (message.type() !== type.Message.Text) { return  }
+      if (message.type() !== MessageType.Text) { return  }
 
       const mentionList = await message.mentionList()
       if (mentionList.length <= 0)              { return }

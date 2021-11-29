@@ -58,7 +58,7 @@
     "shx": "^0.3.3",
     "tstest": "^0.7.3",
     "verpub": "^0.1.4",
-    "wechaty": "^0.77.20",
+    "wechaty": "^0.56.6",
     "wechaty-plugin-contrib": "^1.0.10",
     "wechaty-puppet-mock": "^0.35.8"
   },
