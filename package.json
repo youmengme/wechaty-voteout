@@ -67,12 +67,6 @@
     "lru-cache": "^6.0.0",
     "mustache": "^4.2.0"
   },
-  "_commitid": "82cac3b",
-  "git": {
-    "scripts": {
-      "pre-push": "npx git-scripts-pre-push"
-    }
-  },
   "files": [
     "bin/",
     "dist/",
